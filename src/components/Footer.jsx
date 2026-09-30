@@ -7,12 +7,16 @@ export default function Footer() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 py-12">
         <div className="grid gap-10 md:grid-cols-4">
           <div className="md:col-span-1">
-            <Link to="/" className="flex items-center gap-2.5">
-              <span className="grid h-9 w-9 place-items-center rounded-md border border-primary/40 bg-primary/5 font-mono text-primary text-sm">
-                {"{}"}
-              </span>
-              <span className="font-heading text-2xl tracking-tight">
-                Tech<span className="text-primary">Guide</span>
+            <Link to="/" className="flex items-center gap-2.5" aria-label="Mahmud Rajabov — home">
+              <img
+                src="/m-cat-emblem.svg"
+                alt="Mahmud Rajabov — cat emblem logo"
+                width="28"
+                height="28"
+                className="h-7 w-7 shrink-0"
+              />
+              <span className="font-heading text-xl tracking-tight">
+                Mahmud Rajabov
               </span>
             </Link>
             <p className="mt-4 text-sm text-muted-foreground leading-relaxed max-w-xs">

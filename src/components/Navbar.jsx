@@ -29,12 +29,16 @@ export default function Navbar() {
     <header className="sticky top-0 z-40 glass border-b border-border">
       <div className="mx-auto max-w-7xl px-4 sm:px-6">
         <div className="flex h-16 items-center justify-between gap-4">
-          <Link to="/" className="flex items-center gap-2.5 group" aria-label="TechGuide home">
-            <span className="grid h-9 w-9 place-items-center rounded-md border border-primary/40 bg-primary/5 font-mono text-primary text-sm group-hover:bg-primary/10 transition-colors">
-              {"{}"}
-            </span>
-            <span className="font-heading text-2xl leading-none tracking-tight">
-              Tech<span className="text-primary">Guide</span>
+          <Link to="/" className="flex items-center gap-2.5 group" aria-label="Mahmud Rajabov — TechGuide home">
+            <img
+              src="/m-cat-emblem.svg"
+              alt="Mahmud Rajabov — cat emblem logo"
+              width="32"
+              height="32"
+              className="h-7 w-7 md:h-8 md:w-8 shrink-0"
+            />
+            <span className="font-heading text-lg md:text-xl leading-none tracking-tight group-hover:text-primary transition-colors">
+              Mahmud Rajabov
             </span>
           </Link>
 
